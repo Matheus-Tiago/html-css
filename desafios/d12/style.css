@@ -6,6 +6,46 @@
 }
 
 html, body {
-    background-color: dark;
+    min-height: 100vh;
+    background-color: darkgray;
 }
-
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+header > h1 {
+    padding-top: 50px;
+    font-variant: small-caps ;
+}
+header > p {
+    padding-bottom: 50px;
+}
+header  a, footer  a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+header a:hover, footer a:hover {
+    text-decoration: underline;
+    color: rgb(46, 60, 245);
+}
+footer {
+    background-color: black;
+    color: white;
+}
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+section.normal {
+    background-color: white;
+    color: black;
+}
+section.imagem {
+    background-color: rgb(53, 53, 53);
+    color: white;
+}
+footer > p {
+    padding: 5px;
+}
